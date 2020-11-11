@@ -1,3 +1,19 @@
+### HTML의 구조
+~~~
+<html>
+
+<head> head와 body가 html의 자식으로 들어감, 
+
+         문서 자체를 설명하는 것들이 head태그의 자식으로 들어감
+
+</head> 
+
+<body>  head와 body는 형제관계, html에 들어가는 정보는 body태그의 자식으로 들어감
+
+</body>
+
+</html>
+~~~
 ### 디딤영상 git 1-2
 
 [https://www.youtube.com/watch?v=2z2-2jUV7-Q&feature=youtu.be](https://www.youtube.com/watch?v=2z2-2jUV7-Q&feature=youtu.be)
