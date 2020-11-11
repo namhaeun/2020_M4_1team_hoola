@@ -14,6 +14,9 @@
 
 </html>
 ~~~
+
+---
+
 ### 디딤영상 git 1-2
 
 [https://www.youtube.com/watch?v=2z2-2jUV7-Q&feature=youtu.be](https://www.youtube.com/watch?v=2z2-2jUV7-Q&feature=youtu.be)
