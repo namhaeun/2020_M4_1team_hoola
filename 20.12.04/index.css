@@ -1,0 +1,36 @@
+#box{
+    display: flex;
+}
+#box1{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+}
+#box2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 87);
+    padding: 20px;
+    position: relative;
+}
+#box3{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+}
+.titlehtml{
+    color: white;
+    font-style: bold;
+}
+.contenthtml{
+    color: white;
+}
+.plushtml{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}

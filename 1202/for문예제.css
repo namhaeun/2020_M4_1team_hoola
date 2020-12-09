@@ -1,0 +1,38 @@
+#container{
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+    /* '양옆으로 배치를 어떻게 할 것인가' */
+    justify-content: center;
+    /* 플렉스 다이렉션이라는 방향의 속성
+    기본적으로는 옆으로 함
+    옆으로 해서 나열을 할때 '위 아래로 정렬을 어떻게 할까' */
+}
+.box{
+    color: black;
+    background-color: black;
+    margin: 10px;
+    font-size: 50px;
+    padding: 90px 50px;
+    width: 130px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+.circle{
+    border-radius: 100%;
+}

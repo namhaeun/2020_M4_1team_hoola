@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: rgb(120, 156, 120);
+            color: white;
+            font-size:30px;
+            padding:10px;
+            flex-grow: 1;
+        }
+        main{
+            background-color: gray;
+            color: white;
+            flex-grow: 10;
+            min-height:500px;
+            font-size:30px;
+        padding:10px;
+        }
+        footer{
+            background-color: pink;
+            flex-grow: 1;
+            font-size:30px;
+            padding:11px;
+        }
+        #container{
+            display: flex;
+            flex-direction:row;
+        }
+        #right-container{
+            float: left;
+            display: flex;
+            flex-direction:column;
+            flex-grow: 7;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>헤더</header>
+        <div id="right-container">
+            <main>
+                메인 컨텐츠
+            </main>
+            <footer>
+                푸터
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
