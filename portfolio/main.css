@@ -115,10 +115,12 @@ button:hover{
     transform: scale(1);
 }
 /* port */
+/* 굵은 글씨 */
 #boldfamily{
     position: relative;
     top: 100px;
     left: 80px;
+    width: 300px;
 }
 #boldfont{
     position: absolute;
@@ -132,6 +134,33 @@ button:hover{
     font-size: 120px;
     color: rgb(163, 163, 163);
 }
+/* 포트폴리오 프로젝트 */
+/* 2019m3 프로젝트 */
 .portfolio{
+    position: relative;
+}
+.projectname1{
+    position: absolute;
+    right: 350px;
+    font-size: 30px;
+}
+.projectint1{
+    position: absolute;
+    right: 350px;
+    top: 60px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg1 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+}
+#M20193M{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 1px solid black;
     position: relative;
 }
