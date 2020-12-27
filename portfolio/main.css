@@ -33,7 +33,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: #42d3ec;
+    background: #D4F5E8;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -75,7 +75,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: #42d3ec;
+    background: #D4F5E8;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -114,48 +114,24 @@ button:hover{
     transition: 0.3s;
     transform: scale(1);
 }
-/* 푸터 */
-#inner-container{
-    height: 500px;
+/* port */
+#boldfamily{
     position: relative;
-    background-color: #D4F5E8;
+    top: 100px;
+    left: 80px;
 }
-.txt1{
-    font-weight: 300;
-    line-height: 30px;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+#boldfont{
+    position: absolute;
+    font-weight: 700;
+    font-size: 120px;
+    top: -50px;
+    left: -30px;
 }
-.txt2{
-    font-weight: 300;
-    line-height: 30px;
-    font-size: 20px;
-    text-align: center;
+#boldfontgray{
+    font-weight: 700;
+    font-size: 120px;
+    color: rgb(163, 163, 163);
 }
-.box{
-    width: 600px;
-    margin: 0px auto;
-    margin-top: 30px;
-}
-#box1{
-    border: 1px solid black;
-    padding: 10px 0;
-    padding-left: 20px;
-}
-#box2{
-    border: 1px solid black;
-    margin: 10px 0;
-    padding: 10px 0;
-    padding-left: 20px;
-}
-#box3{
-    border: 1px solid black;
-    padding-top: 10px;
-    padding-left: 20px;
-    height: 100px;
-}
-.box:hover #box1{
-    transform: border 2px;
+.portfolio{
+    position: relative;
 }

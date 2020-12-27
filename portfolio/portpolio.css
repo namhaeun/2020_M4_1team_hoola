@@ -1,0 +1,25 @@
+#inner-container{
+    position: relative;
+}
+#line{
+    width: 3000px;
+    border: 2px solid black;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    float: left;
+    background-color: black;
+    margin: 0 200px;
+    transform: translateY(-55%);
+    border-radius: 100px;
+}
+#circle{
+    margin-left: 50px;
+}
+#linecircle{
+    position: absolute;
+    top: 50vh;
+    transform: translate(0vw);
+}
