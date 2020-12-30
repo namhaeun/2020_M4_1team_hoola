@@ -141,13 +141,14 @@ button:hover{
 }
 .projectname1{
     position: absolute;
-    right: 350px;
+    right: 320px;
     font-size: 30px;
+    top: 60px;
 }
 .projectint1{
     position: absolute;
-    right: 350px;
-    top: 60px;
+    right: 320px;
+    top: 100px;
     font-weight: 100;
     font-size: 20px;
 }
@@ -163,4 +164,294 @@ button:hover{
     padding-top: 20px;
     border-top: 1px solid black;
     position: relative;
+}
+.projectname2{
+    position: absolute;
+    left: 70px;
+    top: 180px;
+    font-size: 30px;
+}
+.projectint2{
+    position: absolute;
+    left: 70px;
+    top: 220px;
+    font-weight: 100;
+    font-size: 20px;
+}
+/* 20194 */
+#M20194M{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 280px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+.projectname3{
+    position: absolute;
+    right: 320px;
+    font-size: 30px;
+    top: 70px;
+}
+.projectint3 p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.projectint3{
+    position: absolute;
+    right: 320px;
+    top: 110px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg3 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+}
+.projectname4{
+    position: absolute;
+    left: 320px;
+    top: 240px;
+    font-size: 30px;
+}
+.projectint4{
+    position: absolute;
+    left: 320px;
+    top: 280px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg4 img{
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+.projectname5{
+    position: absolute;
+    right: 320px;
+    font-size: 30px;
+    top: 430px;
+}
+.projectint5 p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.projectint5{
+    position: absolute;
+    right: 320px;
+    top: 470px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg5 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 380px;
+}
+/* 20201 */
+#M20201M{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 560px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+.projectname6{
+    position: absolute;
+    right: 320px;
+    font-size: 30px;
+    top: 80px;
+}
+.projectint6 p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.projectint6{
+    position: absolute;
+    right: 320px;
+    top: 120px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg6 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+}
+.projectname7{
+    position: absolute;
+    left: 320px;
+    top: 250px;
+    font-size: 30px;
+}
+.projectint7{
+    position: absolute;
+    left: 320px;
+    top: 290px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg7 img{
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+.projectname8{
+    position: absolute;
+    right: 320px;
+    font-size: 30px;
+    top: 440px;
+}
+.projectint8 p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.projectint8{
+    position: absolute;
+    right: 320px;
+    top: 480px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg8 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 380px;
+}
+/* 20202 */
+#M20202M{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 370px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+.projectname8{
+    position: absolute;
+    right: 320px;
+    font-size: 30px;
+    top: 80px;
+}
+.projectint8 p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.projectint8{
+    position: absolute;
+    right: 320px;
+    top: 120px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg8 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+.projectname9{
+    position: absolute;
+    left: 320px;
+    top: 250px;
+    font-size: 30px;
+}
+.projectint9{
+    position: absolute;
+    left: 320px;
+    top: 290px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg9 img{
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+/* 20203 */
+#M20203M{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 370px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+.projectname10{
+    position: absolute;
+    right: 320px;
+    font-size: 30px;
+    top: 70px;
+}
+.projectint10 p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.projectint10{
+    position: absolute;
+    right: 320px;
+    top: 110px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg10 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+}
+.projectname11{
+    position: absolute;
+    left: 320px;
+    top: 240px;
+    font-size: 30px;
+}
+.projectint11{
+    position: absolute;
+    left: 320px;
+    top: 280px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg11 img{
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+.projectname12{
+    position: absolute;
+    right: 320px;
+    font-size: 30px;
+    top: 430px;
+}
+.projectint12 p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.projectint12{
+    position: absolute;
+    right: 320px;
+    top: 470px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.projectimg12 img{
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 380px;
 }
