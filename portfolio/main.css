@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position : fixed;
 }
 .navbar ul li{
     list-style: none;
@@ -26,14 +27,14 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: grey;
     text-transform: uppercase;
 }
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #D4F5E8;
+    background:  rgb(194, 192, 192);
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -67,7 +68,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #D4F5E8;
+    border: 2px solid grey;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -75,7 +76,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: #D4F5E8;
+    background: rgb(194, 192, 192);
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -454,4 +455,153 @@ button:hover{
     position: absolute;
     right: 0px;
     top: 380px;
+}
+/* 어빌리티 */
+#myability{
+    position: relative;
+    top: 500px;
+    left: 80px;
+    width: 800px;
+}
+.graph{
+    position: relative;
+    width: 800px;
+    margin: 0px auto;
+    margin-top: 700px;
+}
+#line{
+    width: 800px;
+    border: 2px solid grey;
+}
+.sp1{
+    margin: 0 10px;
+    width: 100px;
+    height: 60px;
+    background-color: grey;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+.sp2{
+    margin: 0 10px;
+    width: 100px;
+    height: 150px;
+    background-color: rgb(102, 102, 102);
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+}
+.sp3{
+    margin: 0 10px;
+    width: 100px;
+    height: 200px;
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+    bottom: 0px;
+    left: 42%
+}
+.sp4{
+    margin: 0 10px;
+    width: 100px;
+    height: 250px;
+    background-color: rgb(62, 62, 62);
+    position: absolute;
+    bottom: 0px;
+    right: 180px;
+}
+.sp5{
+    margin: 0 10px;
+    width: 100px;
+    height: 350px;
+    background-color: rgb(39, 39, 39);
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+#sp{
+    display: flex;
+    position: relative;
+    padding-top: 400px;
+    margin-bottom: 200px;
+}
+#container{
+    height: 100px;
+    margin: 0px auto;
+    background-color: rgb(194, 192, 192);
+    text-align: center;
+}
+#text{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 40px;
+}
+/* 스킬 */
+.skills{
+    color: white;
+    position: relative;
+}
+a.sp1:hover .skills1{
+    position:absolute; 
+}
+.skills1{
+    position:absolute; 
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgb(95, 95, 95), rgb(88, 88, 88));
+    font-weight: 100;
+    padding: 20px 20px;
+    font-size: 20px;
+    top: -750px;
+    left: 29%;
+}
+#tptp1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(95, 95, 95);
+    position: absolute;
+    bottom: -10px;
+    transform: rotate(45deg);
+    left: 90px;
+}
+.skills2{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgb(70, 70, 70), rgb(58, 58, 58));
+    font-weight: 100;
+    padding: 20px 20px;
+    font-size: 20px;
+    position: absolute;
+    top: -820px;
+    left: 40%;
+}
+#tptp2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+    bottom: -10px;
+    transform: rotate(45deg);
+    z-index: 20;
+    left: 90px;
+}
+.skills3{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgb(62, 62, 62), rgb(49, 49, 49));
+    font-weight: 100;
+    padding: 20px 20px;
+    font-size: 20px;
+    position: absolute;
+    top: -820px;
+    left: 40%;
+}
+#tptp3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(62, 62, 62);
+    position: absolute;
+    bottom: -10px;
+    transform: rotate(45deg);
+    z-index: 20;
+    left: 90px;
 }
