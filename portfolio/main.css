@@ -115,6 +115,28 @@ button:hover{
     transition: 0.3s;
     transform: scale(1);
 }
+/* frofile*/
+#FROFILE{
+    position: relative;
+    top: 100px;
+}
+#fro img{
+    width: 300px;
+}
+#fro{
+    position: relative;
+    left: 200px;
+}
+#txtx1{
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    font-size: 25px;
+    font-weight: 100;
+}
+#txtx{
+    margin-bottom: 20px;
+}
 /* port */
 /* 굵은 글씨 */
 #boldfamily{
