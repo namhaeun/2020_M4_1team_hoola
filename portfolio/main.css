@@ -118,24 +118,47 @@ button:hover{
 /* frofile*/
 #FROFILE{
     position: relative;
-    top: 100px;
+    top: 30px;
 }
 #fro img{
     width: 300px;
 }
 #fro{
     position: relative;
-    left: 200px;
+    left: 300px;
+    width: 1000px;
+    top: 100px;
 }
 #txtx1{
     position: absolute;
-    left: 500px;
+    left: 420px;
     top: 0px;
     font-size: 25px;
     font-weight: 100;
+    border-left: 1px solid black;
+    height: 300px;
+    padding-left: 100px;
 }
 #txtx{
     margin-bottom: 20px;
+}
+#boldfamily3{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 500px;
+}
+#boldfont3{
+    position: absolute;
+    font-weight: 700;
+    font-size: 120px;
+    top: -50px;
+    left: -30px;
+}
+#boldfontgray3{
+    font-weight: 700;
+    font-size: 120px;
+    color: rgb(163, 163, 163);
 }
 /* port */
 /* 굵은 글씨 */
@@ -144,6 +167,7 @@ button:hover{
     top: 100px;
     left: 80px;
     width: 300px;
+    margin-top: 150px;
 }
 #boldfont{
     position: absolute;
